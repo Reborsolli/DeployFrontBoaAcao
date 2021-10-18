@@ -1,0 +1,59 @@
+.bg-rodape{
+    background-color: #FDFBFA;    
+}
+
+.text-rodape{
+    color: #422157;
+    font-family: arial;    
+}
+
+a{
+    cursor: pointer;
+}
+
+.fa-facebook-square:hover{
+    color: #3b5998;
+    font-size: 20px;
+}
+
+.fa-instagram:hover{
+    color: #C13584;
+    font-size: 20px;
+  }
+  
+.fa-linkedin-square:hover{
+    color: #0072b1;
+    font-size: 20px;
+  }
+
+  
+.fa-facebook-square{
+    color: #3b5998;
+    font-size: 20px;
+}
+
+.fa-instagram{
+    color: #C13584;
+    font-size: 20px;
+  }
+  
+.fa-linkedin-square{
+    color: #0072b1;
+    font-size: 20px;
+  }
+  .fa-github-square{
+    color: #0a0a0a;
+    font-size: 20px;
+  }
+
+.btn{
+  background-color: #54166f;
+  border-color: #54166f;
+  transition: all .3s ease-out;
+}
+.btn:hover{
+  color: #0a0a0a;
+  background-color: #edc927;
+  border-color: #edd151;
+  transition: all .3s ease-out;
+}

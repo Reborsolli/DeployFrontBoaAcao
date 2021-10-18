@@ -1,0 +1,53 @@
+.img{
+    background-image: url("../../assets/img/Fundo Login.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:contain; 
+    padding: 100px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    padding: 100px;
+  }
+  
+  .card {
+    background-color: #42215766;
+    padding: 30px;
+    border-radius: 11%;
+    min-width: 350px;
+    max-width: 500px;
+  }
+
+  button{
+    background-color: #422157;
+    border-color: #422157;
+    color: #fff;
+    
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+    min-width: 95%
+  }
+
+  button:hover{
+    background-color: #EDC927;
+    border-color: #EDC927;
+    color: #422157;
+  }
+  input{
+      text-align: center;
+  }
+  h2{
+      text-align: center;
+      color: #ffffff;
+  }

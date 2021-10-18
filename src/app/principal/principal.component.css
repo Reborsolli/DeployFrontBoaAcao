@@ -1,0 +1,62 @@
+.bg-navbar{
+    background-color: #ffff;    
+}
+
+.bg-menu{
+    background-color: #EDC927;
+}
+
+.text-navbar{
+    color: #EDC927;
+    font-family: arial;
+    font-size: 20px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.botao-menu-lateral {
+	border-color: #422157;
+    color: #422157;
+    font-family: arial
+}
+a:hover{
+    background-color: #422157;
+    border-color: #422157;
+    color: #EDC927;
+  }
+
+.bt-edicao{
+    background-color: #422157;
+    color: #EDC927;
+    font-family: arial;
+}
+
+.botao-modal {
+	background-color: #ffff;
+	border-color: #422157;
+    color: #422157
+}
+
+.nomeuser{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.retangulo {
+    background-color: #422157; 
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+     border: 1px solid #422157;
+     width: 350px;
+     height: 70px;
+      padding: 10px}
+      
+.pub{
+    color: #EDC927;
+
+}
+      

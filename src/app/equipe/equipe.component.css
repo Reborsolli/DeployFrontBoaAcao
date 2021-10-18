@@ -1,0 +1,76 @@
+ul{
+    list-style: none;    
+    padding: 0;
+}
+
+ul li{
+    display: inline;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa{
+    font-size: 30pt;
+    color: #EDC927;
+    transition: all .1s ease-out;
+    margin-top: 10px;
+}
+
+.fa:hover{
+    /*color: #EDD151;*/
+    color: #FAF8FB;
+    font-size: 32pt;
+    margin-top: 2px;
+}
+
+h4{
+    color: #FAF8FB;
+    
+}
+
+.card-text{
+    color: #FAF8FB;    
+}
+
+.card{
+    background-color: #422157;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 65px;
+}
+
+.c-2{
+    background-color: #54166F;
+}
+
+.h2-equipe{
+    margin-top: 30pt;
+    margin-bottom: 40pt;
+    color:#422157;
+    font-size: 30pt;
+}
+
+.h1-equipe{
+    color:#422157;
+}
+.bg-navbar{
+    background-color: #422157;    
+}
+
+.text-navbar{
+    color: #EDC927;
+    font-family: arial;
+    font-size: 20px;
+}
+
+a{
+    cursor: pointer;    
+}
+
+.nomeuser{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+}

@@ -1,0 +1,56 @@
+<footer class="page-footer font-small bg-rodape pt-4">
+
+  <hr>
+  <div class="container">
+    <div class="col-md-12 d-flex justify-content-center text-rodape">
+      <div class="col-md-4">
+        <h3 class="d-flex justify-content-center text-rodape  text-rodape mb-5">Boa Ação</h3>
+
+        <p class="text-center"> Suas boas ações podem ser invisíveis, mas elas deixam marcas que ficam para sempre
+          gravadas nos corações dos outros. </p>
+      </div>
+      <div class="col-md-4">
+
+        <h3 class="mb-5 text-rodape text-center">Equipe</h3>
+        <a routerLink="/equipe">
+          <p class="d-flex text-center text-rodape mb-5"> Esse projeto foi feito em colaboração por alunos do
+            curso de Java da Generation Brasil. Conheça mais sobre nós clicando aqui.</p>
+        </a>
+        <a routerLink="/sobre">
+          <h3 class=" d-flex justify-content-center text-rodape  text-rodape">Sobre</h3>
+        </a>
+        <div class="row  d-flex justify-content-center text-rodape text-rodape">
+
+          <a href="https://www.facebook.com/generationbrasil" target="_blank" class="p-2">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/school/generationbrasil/" target="_blank" class="p-2">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h3 class=" d-flex justify-content-center text-rodape mb-5 text-rodape">Newsletter</h3>
+        <p class="  text-center  text-rodape">Quer ficar atualizado? Coloque seu e-mail</p>
+        <div class="form-group d-flex justify-content-center">
+          <input class="text-center" id="emailNews" [(ngModel)]="emailDummy" type="form-control"  placeholder="Seu email aqui">
+        </div>
+        <div class="form-group d-flex justify-content-center">
+          <button class="btn btn-primary" (click)='recebeEmail()'>Enviar</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="footer-copyright bg-rodape text-center py-3">
+    <span class="text-rodape"> © 2021 Copyright: </span>
+    <a class="text-rodape" target="_blank" href="https://brasil.generation.org">brasil.generation.org</a>
+  </div>
+
+  <footer>
